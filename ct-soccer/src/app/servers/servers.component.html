@@ -1,2 +1,42 @@
+<label> Server Name</label>
+<!-- EVENT BIDING - <input type="text" class="form-control" (input)="onUpdateServerNmae($event)" /> -->
+
+<input type="text" class="form-control" [(ngModel)]="serverName"/> 
+
+<!-- <p>{{serverName}} </p> -->
+<button
+  class="btn btn-primary"
+  [disabled]="!allowNewServer"
+  (click)="onCreateServer()"
+>
+  Add Server
+</button>
+
+<p>{{ serverCreationStatus }}</p>
+
+<hr>
+<h6> Practice Example </h6>
+<hr>
+
+
+<input id="userName" type="text" (input)="updateUserBtn($event)" [(ngModel)]="username"/> 
+<p> {{username}} </p>
+
+
+<!-- 
+  A way to enabled the btn inline 
+<button class="btn btn-success"
+[disabled]="!allowNewUser"="username ===''"
+(click)='resetUser'> Add User </button> -->
+
+
+<button class="btn btn-success"
+[disabled]="!allowNewUser"
+(click)='resetUser()'> Add User </button>
+
+
+<hr>
+<hr>
 <app-server></app-server>
+
 <app-server></app-server>
