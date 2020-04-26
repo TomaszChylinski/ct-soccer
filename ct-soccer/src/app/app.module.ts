@@ -8,6 +8,10 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { NavigationComponent } from './shared/navigation/navigation.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { ScheduleComponent } from './schedule/schedule.component';
+import { FeedComponent } from './feed/feed.component';
+import { StoreComponent } from './store/store.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +20,10 @@ import { FooterComponent } from './shared/footer/footer.component';
     ServersComponent,
     NavigationComponent,
     FooterComponent,
+    HomepageComponent,
+    ScheduleComponent,
+    FeedComponent,
+    StoreComponent,
 
   ],
   imports: [
