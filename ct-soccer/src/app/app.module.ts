@@ -32,6 +32,6 @@ import { StoreComponent } from './store/store.component';
     FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent, NavigationComponent]
+  bootstrap: [AppComponent, NavigationComponent, HomepageComponent]
 })
 export class AppModule { }
