@@ -1,1 +1,17 @@
-<p>schedule works!</p>
+
+
+
+    <ul>
+        <h3>Upcoming Events</h3>
+      <a
+        href="#"
+        class="list-group-item clearfix"
+        *ngFor="let schedule of upcomingGames"
+      >
+        <div style="display: inline;">
+          <h6>{{schedule.name}} @ Test Stadium</h6>
+          <p>{{schedule.date}}</p>
+        </div>
+      </a>
+    </ul>
+
