@@ -12,6 +12,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { FeedComponent } from './feed/feed.component';
 import { StoreComponent } from './store/store.component';
+import { NewsfeedComponent } from './homepage/newsfeed/newsfeed.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { StoreComponent } from './store/store.component';
     ScheduleComponent,
     FeedComponent,
     StoreComponent,
+    NewsfeedComponent,
 
   ],
   imports: [
