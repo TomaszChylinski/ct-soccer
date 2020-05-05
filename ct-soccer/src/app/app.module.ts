@@ -10,9 +10,10 @@ import { NavigationComponent } from './shared/navigation/navigation.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ScheduleComponent } from './schedule/schedule.component';
-import { FeedComponent } from './feed/feed.component';
 import { StoreComponent } from './store/store.component';
 import { NewsfeedComponent } from './homepage/newsfeed/newsfeed.component';
+import { FeedComponent } from './play/feed/feed.component';
+
 
 @NgModule({
   declarations: [
@@ -23,10 +24,9 @@ import { NewsfeedComponent } from './homepage/newsfeed/newsfeed.component';
     FooterComponent,
     HomepageComponent,
     ScheduleComponent,
-    FeedComponent,
     StoreComponent,
     NewsfeedComponent,
-
+    FeedComponent
   ],
   imports: [
     BrowserModule,
