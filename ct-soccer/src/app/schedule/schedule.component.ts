@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Schedule} from './schedule.model';
+import { from } from 'rxjs';
 
 @Component({
   selector: 'app-schedule',
@@ -6,6 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./schedule.component.css']
 })
 export class ScheduleComponent implements OnInit {
+upcomingGames: Schedule[] = [
+  new Schedule('Hartford vs Elm City', '06/27/20'),
+  new Schedule('Hartford vs Elm City', '06/27/20'),
+  new Schedule('Hartford vs Elm City', '06/27/20'),
+  new Schedule('Hartford vs Elm City', '06/27/20'),
+  new Schedule('Hartford vs Elm City', '06/27/20'),
+  new Schedule('Hartford vs Elm City', '06/27/20')
+
+];
+
 
   constructor() { }
 
