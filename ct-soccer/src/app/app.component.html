@@ -1,11 +1,9 @@
-
 <app-navigation></app-navigation>
 <div class="container">
   <div class="row">
+    <!-- <app-server *ngIf="loadedFeature === 'recipe'"> </app-server> -->
 
-   <app-homepage></app-homepage>
-
-
-   <app-feed></app-feed>
+    <!-- <app-servers *ngIf="loadedFeature !== 'recipe'"> </app-servers> -->
+    <router-outlet></router-outlet>
   </div>
 </div>
