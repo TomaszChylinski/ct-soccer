@@ -7,16 +7,17 @@ import { Feed } from './newsfeed.model';
   styleUrls: ['./newsfeed.component.css'],
 })
 export class NewsfeedComponent implements OnInit {
+
   newsFeed: Feed[] = [
     new Feed(
       '04/27',
       'Season Opener',
-      'Come get a taste of this dick, while I am still not a millionare. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi non arcu risus quis.'
+      '= Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi non arcu risus quis.'
     ),
     new Feed(
       '04/27',
       'Season Opener',
-      'Come get a taste of this dick, while I am still not a millionare. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi non arcu risus quis.'
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi non arcu risus quis.'
     ),
   ];
 

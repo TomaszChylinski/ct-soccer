@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import {Schedule} from './schedule.model';
 import { from } from 'rxjs';
 
@@ -17,7 +17,6 @@ upcomingGames: Schedule[] = [
   new Schedule('Hartford vs Elm City', '06/27/20')
 
 ];
-
 
   constructor() { }
 
