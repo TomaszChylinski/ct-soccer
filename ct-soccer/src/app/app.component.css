@@ -285,3 +285,7 @@
           visibility: hidden;
         }
       }
+
+      .navigation-link{
+        color:white !important;
+    }
