@@ -20,7 +20,7 @@ import { PlayComponent } from './play/play/play.component';
 const appRoutes: Routes = [
 {path: '', component: HomepageComponent},
 {path: 'home', component: HomepageComponent},
-,{path: 'play', component: PlayComponent},
+{path: 'play', component: PlayComponent},
 {path: 'news', component: NewsfeedComponent},
 {path: 'shop', component: StoreComponent},
 {path: 'schedule', component: ScheduleComponent},

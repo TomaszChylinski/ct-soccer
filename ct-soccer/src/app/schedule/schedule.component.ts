@@ -9,12 +9,12 @@ import { from } from 'rxjs';
 })
 export class ScheduleComponent implements OnInit {
 upcomingGames: Schedule[] = [
-  new Schedule('Hartford vs Elm City', '06/27/20'),
-  new Schedule('Hartford vs Elm City', '06/27/20'),
-  new Schedule('Hartford vs Elm City', '06/27/20'),
-  new Schedule('Hartford vs Elm City', '06/27/20'),
-  new Schedule('Hartford vs Elm City', '06/27/20'),
-  new Schedule('Hartford vs Elm City', '06/27/20')
+  new Schedule('Hartford vs Elm City', 'Tue 27 June'),
+  new Schedule('Hartford vs Elm City', 'Sat 27 June'),
+  new Schedule('Hartford vs Elm City', 'Sat 1 July'),
+  new Schedule('Hartford vs Elm City', 'Sat 1 July'),
+  new Schedule('Hartford vs Elm City', 'Sun 2 July'),
+  new Schedule('Hartford vs Elm City', 'Sun 4 July')
 
 ];
 
