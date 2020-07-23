@@ -16,6 +16,7 @@ import { FeedComponent } from './play/feed/feed.component';
 import { EditPostsComponent } from './play/feed/edit-posts/edit-posts.component';
 import { Routes, RouterModule } from '@angular/router';
 import { PlayComponent } from './play/play/play.component';
+import { DropDownDirective } from './shared/dropdown.directive';
 
 const appRoutes: Routes = [
 {path: '', component: HomepageComponent},
@@ -41,7 +42,8 @@ const appRoutes: Routes = [
     NewsfeedComponent,
     FeedComponent,
     EditPostsComponent,
-    PlayComponent
+    PlayComponent,
+    DropDownDirective,
   ],
   imports: [
     BrowserModule,
