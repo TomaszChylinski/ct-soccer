@@ -15,10 +15,13 @@ import { NewsfeedComponent } from './homepage/newsfeed/newsfeed.component';
 import { FeedComponent } from './play/feed/feed.component';
 import { EditPostsComponent } from './play/feed/edit-posts/edit-posts.component';
 import { Routes, RouterModule } from '@angular/router';
+import { PlayComponent } from './play/play/play.component';
+import { DropDownDirective } from './shared/dropdown.directive';
 
 const appRoutes: Routes = [
 {path: '', component: HomepageComponent},
 {path: 'home', component: HomepageComponent},
+{path: 'play', component: PlayComponent},
 {path: 'news', component: NewsfeedComponent},
 {path: 'shop', component: StoreComponent},
 {path: 'schedule', component: ScheduleComponent},
@@ -38,7 +41,9 @@ const appRoutes: Routes = [
     StoreComponent,
     NewsfeedComponent,
     FeedComponent,
-    EditPostsComponent
+    EditPostsComponent,
+    PlayComponent,
+    DropDownDirective,
   ],
   imports: [
     BrowserModule,
