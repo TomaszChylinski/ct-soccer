@@ -1,0 +1,23 @@
+<textarea rows="6" [(ngModel)]="enteredValue"></textarea>
+
+<hr>
+
+<button
+(click)="onAddPost()">Post</button>
+
+
+<p>
+    {{newPost}}
+</p>
+
+
+<mat-form-field class="example-form-field">
+    <mat-label>Clearable input</mat-label>
+    <input matInput type="text" [(ngModel)]="enteredValue">
+    <button mat-button *ngIf="enteredValue" matSuffix mat-icon-button aria-label="Clear" (click)="enteredValue=''">
+      <!-- <mat-icon>close</mat-icon> -->
+    </button>
+  </mat-form-field>
+
+
+  <app-posts-list></app-posts-list>

@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
@@ -17,6 +18,11 @@ import { EditPostsComponent } from './play/feed/edit-posts/edit-posts.component'
 import { Routes, RouterModule } from '@angular/router';
 import { PlayComponent } from './play/play/play.component';
 import { DropDownDirective } from './shared/dropdown.directive';
+import { PostsComponent } from './play/posts/posts.component';
+import {MatInputModule } from '@angular/material/input';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { PostsListComponent } from './play/posts-list/posts-list.component';
+
 
 const appRoutes: Routes = [
 {path: '', component: HomepageComponent},
@@ -44,12 +50,17 @@ const appRoutes: Routes = [
     EditPostsComponent,
     PlayComponent,
     DropDownDirective,
+    PostsComponent,
+    PostsListComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     RouterModule.forRoot(appRoutes),
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent, NavigationComponent]
