@@ -1,0 +1,19 @@
+{
+  "name": "ct-soccer",
+  "version": "1.0.0",
+  "description": "Application built for the purpose to update fans about CT soccer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaszChylinski/ct-soccer.git"
+  },
+  "author": "Tomasz Chylinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomaszChylinski/ct-soccer/issues"
+  },
+  "homepage": "https://github.com/TomaszChylinski/ct-soccer#readme"
+}
